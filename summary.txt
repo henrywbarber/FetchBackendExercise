@@ -1,0 +1,30 @@
+1. Why did you choose the tools, libraries, and language you used for the coding exercise?
+    For this exercise I utilized the Java Oracle Documentation online to help me utilize imports and methods,
+    specifically this helped me identify the format of the timestamp in the CSV file, along with the use of other imports.
+    With this, I imported java.time.Instant to better define the raw timestamp data read from the CSV file. I found this 
+    object best represented the timestamp data and also had its own overwritten compareTo method that would be utilized in
+    sorting the list of transactions from oldest to youngest. Another import I utilized was java.io to ease my collection of
+    data from the transactions.csv file by allowing me to use the predefined File class. Along with this, I imported the
+    Scanner class to do the actual parsing of the CSV file. Finally to help with my interpretation of the data I used
+    the ArrayList and Comparator imports, which allowed me to have more malleable lists and more abilities when it came to
+    sorting, such as sorting via comparison of specific attributes. When it comes to language, I chose Java because I have
+    by far the most experience with this language throughout high school and college, while its syntax can be frustrating, I
+    feel that I benefit from its rigid structure and feel that I am familiar with its online Documentation.
+2. What are the advantages and disadvantages of your solution?
+    The advantages of my solution include its ability to handle different transaction files with differing amounts of
+    transaction data. Along with this, I feel that my solution handles possible errors well when it comes to user input and
+    possible over-expenditures. However, at the forefront of my solution is its simplicity and readability, I believe that
+    someone with little coding experience could understand the intended purpose and follow along with my commenting. On the
+    other hand, the disadvantages of my code include complexity and length, I acknowledge the fact that I could have written
+    slightly more time-efficient algorithms and could've left more work for outside imports/libraries to take care of. However,
+    I think that the simplicity and readability better suites the exercise.
+3. What has been a favorite school/personal project thus far? What about it that challenged you?
+    My favorite school project so far was a minigame/guessing game where a user would think of one of their favorite basketball
+    players and the project would ask them questions seeking to identify the player they had in mind. This project was
+    enjoyable because it was very accurate if you knew this player well, it was a team project in which we utilized a red-black
+    tree to store basketball player data imported from an online library. The most challenging aspect of this project was the
+    fact that it was a randomized four-person group project, and none of us had met before the assignment. We worked
+    around this by using plenty of group calls and group chats to coordinate frontend, backend, data acquisition, and algorithms
+    positions. It was by far my favorite project because of all the hours we poured into our individual parts and group
+    integration. The fact that we all came together in equal parts to form a larger-scope project was very rewarding, at
+    least when we finally got it to work after many hours.
